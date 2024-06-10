@@ -2,7 +2,7 @@
 
 
 ## Steps to run
-1. Set up your database by running `queries.sql` in pgAdmin 4
+1. Create your database and create schema (or run `queries.sql`) in pgAdmin 4
 2. Install and `cd` into the project directory
 3. Install necessary modules with `npm i`
 4. In `index.js`, fill your database name and password that you used to set up PostgreSQL on your computer 

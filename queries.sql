@@ -1,6 +1,7 @@
-CREATE TABLE items (
-  id SERIAL PRIMARY KEY,
-  title VARCHAR(100) NOT NULL
+create table items(
+	id serial primary key,
+	title varchar(50)
 );
 
-INSERT INTO items (title) VALUES ('Buy milk'), ('Finish homework');
+insert into items (title) VALUES ('Task 1');
+insert into items (title) VALUES ('Task 2');
